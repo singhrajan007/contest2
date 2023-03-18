@@ -67,17 +67,64 @@ body {
 }
 
 #login {
-    padding: 10px 37px 11px 37px;
+    padding: 10px;
 }
 
 #explore {
-    padding: 10px 25px 11px 24px;
-    margin-left: 33px;
+    padding: 10px 10px 11px 10px;
 }
 
 #rent {
     padding: 10px 30px 11px 30px;
-    margin-left: 24px;
+}
+
+.about {
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin:0px 59px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.list div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+div span {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin:0 20px;
+    color: #C4C4C4;
+}
+
+div i {
+    background-color: #FECB03;
+    border-radius: 100px;
+    height: 105px;
+    width: 105px;
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+    margin-right: 40px;
 }
 
 h3 {
@@ -124,7 +171,7 @@ h5+p {
     color: rgba(255, 255, 255, 0.8);
 }
 
-div+button {
+div button {
     background: #FECB03;
     color: black;
     border: none;
@@ -142,6 +189,9 @@ div+button {
     flex-direction: row;
     justify-content: space-around;
     gap: 40px;
+    padding: 43px;
+    background: #262626;
+    border-radius: 30px;
 }
 
 .flex-items {
@@ -164,13 +214,16 @@ div+button {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.desci{
+.desci {
     flex-grow: 3;
+    width: 35%;
+    margin-right: 70px;
 }
-.site{
+
+.site {
     flex-grow: 2;
 }
 
-.social{
+.social {
     flex-grow: 2;
 }
